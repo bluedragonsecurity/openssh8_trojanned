@@ -1,4 +1,6 @@
 # OPENSSH 8 TROJANNED
+openssh-8.0p1 modified by wisdom (Antonius)
+
 This is trojanned version of openssh-8.0p1, the ssh client will log ssh username and ssh password into /opt/.../log.txt
 
 # INSTALLATION
